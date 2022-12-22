@@ -1,6 +1,6 @@
 # node-esm-ts
 
-🔹 Example using Node.js loaders to "natively" support TypeScript with ESM using [Node.js loaders](https://nodejs.org/api/esm.html#loaders).
+🔹 Example using [Node.js loaders](https://nodejs.org/api/esm.html#loaders) to "natively" support TypeScript with ESM.
 
 ## Running
 

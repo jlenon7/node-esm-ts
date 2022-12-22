@@ -1,8 +1,8 @@
 {
   "name": "node-esm-ts",
   "version": "1.0.0",
+  "author": "João Lenon <lenonsec7@gmail.com>",
   "description": "🔹 Example using Node.js loaders to \"natively\" support TypeScript with ESM.",
-  "main": "index.ts",
   "scripts": {
     "start": "node --loader ts-node/esm --no-warnings index.ts"
   },
@@ -10,17 +10,6 @@
   "imports": {
     "#app/*": "./app/*.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jlenon7/node-esm-ts.git"
-  },
-  "keywords": [],
-  "author": "João Lenon <lenonsec7@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jlenon7/node-esm-ts/issues"
-  },
-  "homepage": "https://github.com/jlenon7/node-esm-ts#readme",
   "dependencies": {
     "@athenna/common": "1.0.1",
     "ts-node": "10.9.1"

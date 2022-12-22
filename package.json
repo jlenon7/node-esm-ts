@@ -8,8 +8,7 @@
   },
   "type": "module",
   "imports": {
-    "#src/*": "./src/*.ts",
-    "#tests/*": "./tests/*.ts"
+    "#app/*": "./app/*.ts"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
   },
   "homepage": "https://github.com/jlenon7/node-esm-ts#readme",
   "dependencies": {
+    "@athenna/common": "1.0.1",
     "ts-node": "10.9.1"
   }
 }
